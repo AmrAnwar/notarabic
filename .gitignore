@@ -1,0 +1,14 @@
+.idea/
+idea/
+*.sqlite*
+*.db
+env/
+venv/
+*.py[cod]
+*.swp
+notes.md
+.coverage
+htmlcov/
+config/
+media/
+static/
