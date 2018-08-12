@@ -8,6 +8,6 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
-
+say hello from the other side
 
 ```
