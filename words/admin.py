@@ -1,14 +1,14 @@
 from django.contrib import admin
-from  .models import Word,WordTimeStamp
+from  .models import Word, WordTimeStamp
 
 # Register your models here.
 class WordTimeStampModelAdmin(admin.ModelAdmin):
-	list_display = ["word","today_count","genral_count"]
+    list_display = ["word", "today_count", "genral_count"]
 
-	class Meta:
-		model = WordTimeStamp
+    class Meta:
+        model = WordTimeStamp
 
 
 
 admin.site.register(Word)
-admin.site.register(WordTimeStamp,WordTimeStampModelAdmin)
+admin.site.register(WordTimeStamp, WordTimeStampModelAdmin)
