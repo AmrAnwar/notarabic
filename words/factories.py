@@ -1,6 +1,7 @@
 import  factory
+import datetime
 from django.contrib.auth.models import User
-from .models import UserWord
+from .models import UserWord,WordTimeStamp,GeneralWord
 
 class UserFactory(factory.django.DjangoModelFactory):
     class Meta:
@@ -48,3 +49,13 @@ class UserWordFactory(factory.DjangoModelFactory):
             # used when u Pass UserWordFactory(down_vote=(1,2))
             for user in extracted:
                 self.down_vote.add(user)
+
+
+class WordTimeStampFactory(factory.django.DjangoModelFactory):
+    class Meta:
+        model=WordTimeStamp
+
+    word = factory.Iterator(GeneralWord.objects.all())
+    location = factory.Iterator(["Egypt","Algre","KSA","AlEmarat"])
+    created_at=datetime.date.today()
+

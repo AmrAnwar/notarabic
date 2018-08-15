@@ -11,8 +11,8 @@ class GeneralWord(models.Model):
     words = models.ManyToManyField("words.UserWord")
     created_at = models.DateField(auto_now_add=True)
 
-    def __str__(self):
-        return self.name
+    # def __str__(self):
+    #     return self.name
 
 class UserWord(models.Model):
     user = models.ForeignKey(User,
@@ -68,4 +68,4 @@ class WordTimeStamp(models.Model):
         return WordTimeStamp.objects.filter(word=self.word).count()
 
     def __str__(self):
-        return self.word
+        return self.word.name
