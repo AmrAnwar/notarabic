@@ -19,8 +19,8 @@ class UserWord(models.Model):
                              on_delete=models.CASCADE,
                              related_name="word_creator"
                              )
-    up_vote = models.ManyToManyField(User, related_name="up_vote")
-    down_vote = models.ManyToManyField(User, related_name="down_vote")
+    up_vote = models.ManyToManyField(User, related_name="up_vote",null=True,blank=True)
+    down_vote = models.ManyToManyField(User, related_name="down_vote",null=True,blank=True)
 
     description = models.TextField()
     example = models.TextField(null=True, blank=True)
