@@ -3,7 +3,8 @@ from  .models import UserWord, WordTimeStamp, GeneralWord
 
 # Register your models here.
 class WordTimeStampModelAdmin(admin.ModelAdmin):
-	list_display = ["word","today_count","genral_count"]
+	list_display = ["word"]
+	list_filter =  ["word"]
 
 	class Meta:
 		model = WordTimeStamp
