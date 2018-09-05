@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
     'django_filters',
     'users',
     'words',
@@ -49,6 +50,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -138,6 +140,7 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+CORS_ORIGIN_ALLOW_ALL = True
 
-GEOIP_PATH = os.path.join(BASE_DIR,"GeoLite2-Country_20180807")
+GEOIP_PATH = os.path.join(BASE_DIR, "GeoLite2-Country_20180807")
 GEOIP_COUNTRY = "GeoLite2-Country.mmdb"
