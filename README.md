@@ -50,15 +50,15 @@ python manage.py runserver
 - Postgres
 - Factories using Factory boy 
 
-## in code you can useful learning exmaples to:
+## the project has useful learning exmaples for:
 - convert the Archecture to real life code
 - CBV using Django rest ( class based view).
 - using routers in django urls.
 - Paginations.
-- simpple usage to Django GIS library to get the user request country.
+- Simple usage to Django GIS library to get the user request country.
 - mange user permission for the APIs.
 - Factories (using Factory boy) to create dummy data and using it in testing
 - Create docker containers to the app
-- TDD ( test driving development) using Unit testing **[TODO] **
+- TDD ( test driving development) using Unit testing ** [TODO] **
 
 
