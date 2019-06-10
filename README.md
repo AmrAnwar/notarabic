@@ -1,3 +1,6 @@
+![python version](https://img.shields.io/badge/python-3.4+-blue.svg)
+![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
+
 # not arabic
 Simple Dictionary Api Similar To Urban Dictionary
 
