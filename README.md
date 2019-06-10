@@ -10,7 +10,7 @@ Simple Dictionary Api Similar To Urban Dictionary
 
 ---
 
-## Project Archetiecture [link](https://drive.google.com/file/d/14UaZKbFcpjQBvYtB40IUxxLHfnGgt24D/view?usp=sharing "link") or photos below:
+## Project Architecture [link](https://drive.google.com/file/d/14UaZKbFcpjQBvYtB40IUxxLHfnGgt24D/view?usp=sharing "link") or photos below:
 
 ### - Models:
 
@@ -54,7 +54,7 @@ python manage.py runserver
 - Factories using Factory boy 
 
 ## the project has useful learning exmaples for:
-- convert the Archecture to real life code
+- convert the Architecture to real life code
 - CBV using Django rest ( class based view).
 - using routers in django urls.
 - Paginations.
