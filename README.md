@@ -46,8 +46,8 @@ python manage.py runserver
 - Django
 - Django GIS built-in library & geoip2.
 - Django Rest Framework
+- Python, Django, DRF unit testing  
 - Docker
-- Postgres
 - Factories using Factory boy 
 
 ## the project has useful learning exmaples for:
