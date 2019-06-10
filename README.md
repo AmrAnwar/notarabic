@@ -34,7 +34,7 @@ python manage.py runserver
 
 ## Technologies:
 - Django
-- Django GIS built-in library.
+- Django GIS built-in library & geoip2.
 - Django Rest Framework
 - Docker
 - Postgres
