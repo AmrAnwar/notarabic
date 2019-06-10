@@ -139,5 +139,5 @@ STATIC_URL = '/static/'
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
-GEOIP_PATH = os.path.join(BASE_DIR,"GeoLite2-Country_20180807")
+GEOIP_PATH = os.path.join(BASE_DIR,"GeoLite2-Country")
 GEOIP_COUNTRY = "GeoLite2-Country.mmdb"
