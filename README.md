@@ -25,10 +25,20 @@ Simple Dictionary Api Similar To Urban Dictionary
 ```
 virtualenv -p python3 <path>/notarabic-env
 pip install -r requirements.txt
+python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
+
+## requests examples 
+
+### Words list: 
+
+[![](https://www3.0zz0.com/2019/06/10/22/904453314.jpeg)](https://www3.0zz0.com/2019/06/10/22/904453314.jpeg)
+
+### Retrieve user word instance:
+[![](https://www3.0zz0.com/2019/06/10/22/494644414.jpeg)](https://www3.0zz0.com/2019/06/10/22/494644414.jpeg)
 
 -----
 
