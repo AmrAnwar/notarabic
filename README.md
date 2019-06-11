@@ -26,7 +26,9 @@ Simple Dictionary Api Similar To Urban Dictionary
 
 ## run the project: 
 ```
-virtualenv -p python3 <path>/notarabic-env
+git clone https://github.com/AmrAnwar/notarabic
+cd notarabic
+virtualenv -p python3
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
